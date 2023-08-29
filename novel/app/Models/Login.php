@@ -9,6 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 
 
 
-class Login extends{
+class Login extends Model{
     use HasFactory;
 }
