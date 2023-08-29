@@ -67,6 +67,23 @@ footer {
 /* end of dropdown submenu */
 
 /* font */
+/* 1 */
+.crop-text-1 {
+    -webkit-line-clamp: 4; /* change showed paragraph */
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .crop-text-2 {
+    -webkit-line-clamp: 1; /* change showed paragraph */
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+
+/* 2 */
 .font_white {
     color: white;
 }
