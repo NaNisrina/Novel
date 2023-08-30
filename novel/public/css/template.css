@@ -82,6 +82,9 @@ footer {
     display: -webkit-box;
     -webkit-box-orient: vertical;
   }
+.read_center {
+    width: 40vw;
+}
 
 /* 2 */
 .font_white {

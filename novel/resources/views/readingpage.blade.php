@@ -34,21 +34,23 @@
     <!-- End of Dropdown -->
 
     <!-- Reading -->
-        <div class="container">
-            <div class="header">
+    <section class="py-3">
+        <div class="container font_white d-flex flex-column justify-content-center align-items-center">
+            <div class="header container_center">
                 <h1>Judul Cerita</h1>
                 <p>Oleh: Penulis</p>
             </div>
-            <div class="content">
-                <p>
+            {{-- <div class="content col-5"> --}}
+                <p class="read_center">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae lacus vel odio auctor faucibus.
                     Sed ut elit ut nunc bibendum cursus. Sed vehicula dui id orci condimentum, in varius justo egestas.
                     Vivamus nec est at justo blandit pharetra. Nam dignissim nisi vitae quam ultrices, ac fermentum purus
                     facilisis.
                 </p>
                 <!-- Lanjutkan dengan bagian cerita selanjutnya -->
-            </div>
+            {{-- </div> --}}
         </div>
+    </section>
     <!-- End of Reading -->
 
 @endsection

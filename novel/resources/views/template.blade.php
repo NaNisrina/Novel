@@ -273,7 +273,7 @@
                 veria 2023</p>
         </div>
     </footer>
-    <!-- End of Footer -->>
+    <!-- End of Footer -->
 
     <!-- Core theme JS-->
     <script src="{{ asset ('js/scripts.js') }}"></script>
@@ -292,7 +292,6 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     {{-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> --}}
-
 </body>
 
 </html>
