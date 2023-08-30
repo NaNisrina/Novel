@@ -150,6 +150,12 @@ li {
     height: 500px;
     object-fit: cover;
     background-size: cover;
+
+    /* border */
+    border-color: #3f3c3c;
+    border-width: .25rem;
+    border-style: solid;
+    border-radius: 5%;
 }
 .image_card {
     /* width: 250px; */
@@ -184,7 +190,7 @@ li {
 /* carousel */
 .carousel-item {
     height: 30rem;
-    background-color: #B38BCB;
+    /* background-color: #B38BCB; */
     color: white;
     position: relative;
 }
@@ -581,11 +587,20 @@ section .section-title {
 /* end of setting */
 
 /* reading page */
+/* 1 */
+.read_border {
+    /* border-width: .25rem; */
+    padding: 30px 0 0 30px;
+    border-radius: 3%;
+    border-style: solid;
+}
+
+/* ? */
   .reading-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(118, 118, 118);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
 

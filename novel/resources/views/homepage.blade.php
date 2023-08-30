@@ -10,11 +10,15 @@
         <div class="container container_center px-5">
 
             <div class="row gx-5 justify-content-center">
-                <div class="col-lg-6">
+                <div class="col">
 
                     <div class="text-center my-5">
                         <h1 class="display-5 fw-bolder text-white mb-2">Welcome, user</h1>
                         <p class="lead text-white-50 mb-4">Latest Update</p>
+
+                        {{-- <div class="shadow-lg p-3 mb-5 bg-dark rounded"> --}}
+
+                        {{-- .col-lg-9 --}}
 
                         <!-- Carousel -->
                         <div id="carouselExampleCaptions" class="carousel slide">
@@ -67,6 +71,7 @@
                             </button>
                         </div>
                         <!-- End of Carousel -->
+                    {{-- </div> --}}
 
                         {{-- <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                             <a class="btn btn-outline-warning btn-lg px-4 me-sm-3" href="#features">Start Reading</a>
