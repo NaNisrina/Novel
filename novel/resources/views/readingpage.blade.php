@@ -12,20 +12,20 @@
                     <img src="img/svg/dropdown1.svg" alt="archive" class="">
                 </a>
                 <ul class="dropdown-menu dropdown">
-                    <li><a class="dropdown-item" href="/YourLibrary">
-                            <img src="img/svg/navbar_bookmark.svg" alt="bookmark">
-                            Bookmark
+                    <li><a class="dropdown-item" href="/CoverDescription">
+                            Chapter 1
                         </a></li>
-                    <li><a class="dropdown-item" href="/YourLibrary">
-                            <img src="img/svg/navbar_star.svg" alt="star">
-                            Favorite
+                    <li><a class="dropdown-item" href="/CoverDescription">
+                            Chapter 2
                         </a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="/YourStory">
-                            <img src="img/svg/navbar_story.svg" alt="story">
-                            My Story
+                    <li><a class="dropdown-item" href="/CoverDescription">
+                            Chapter 3
+                        </a></li>
+                    <li><a class="dropdown-item" href="/CoverDescription">
+                            Chapter 4
+                        </a></li>
+                    <li><a class="dropdown-item" href="/CoverDescription">
+                            Chapter 5
                         </a></li>
                 </ul>
             </li>
@@ -34,7 +34,21 @@
     <!-- End of Dropdown -->
 
     <!-- Reading -->
-
+        <div class="container">
+            <div class="header">
+                <h1>Judul Cerita</h1>
+                <p>Oleh: Penulis</p>
+            </div>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae lacus vel odio auctor faucibus.
+                    Sed ut elit ut nunc bibendum cursus. Sed vehicula dui id orci condimentum, in varius justo egestas.
+                    Vivamus nec est at justo blandit pharetra. Nam dignissim nisi vitae quam ultrices, ac fermentum purus
+                    facilisis.
+                </p>
+                <!-- Lanjutkan dengan bagian cerita selanjutnya -->
+            </div>
+        </div>
     <!-- End of Reading -->
 
 @endsection
