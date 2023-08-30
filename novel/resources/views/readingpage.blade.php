@@ -40,8 +40,8 @@
 
             </li>
             <div class="col-md-9 font_right">
-                <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; First Chapter</a>
-                <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; Latest Chapter</a>
+                <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; Previous Chapter</a>
+                <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; Next Chapter</a>
             </div>
         </div>
     </section>
