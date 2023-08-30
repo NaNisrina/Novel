@@ -10,7 +10,7 @@
         <div class="container container_center px-5">
 
             <div class="row gx-5 justify-content-center">
-                <div class="col">
+                <div class="col-lg-9">
 
                     <div class="text-center my-5">
                         <h1 class="display-5 fw-bolder text-white mb-2">Welcome, user</h1>

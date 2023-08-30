@@ -108,8 +108,8 @@
                                 <p class="text-start fs-4 fw-bold font_black">Chapters</p>
                             </div>
                             <div class="col font_right">
-                                <a href="/ReadingPage" class="btn btn-dark">&raquo; First Chapter</a>
-                                <a href="/ReadingPage" class="btn btn-dark">&raquo; Latest Chapter</a>
+                                <a href="/ReadingPage" class="btn mb-2 btn-dark">&raquo; First Chapter</a>
+                                <a href="/ReadingPage" class="btn mb-2 btn-dark">&raquo; Latest Chapter</a>
                             </div>
                         </div>
 
