@@ -52,6 +52,7 @@ Route::get('/YourLibrary', [YourLibraryController::class, 'yourlibrary'])->name(
 Route::get('/YourStory', [YourStoryController::class, 'yourstory'])->name('yourstory');
 Route::get('/EditStory', [EditStoryController::class, 'index'])->name('editstory');
 Route::get('/Create', [CreateStoryController::class, 'create'])->name('create');
+Route::post('/post-store', [CreateStoryController::class, 'store'])->name('posts.store');
 
 Route::get('/CoverDescription', [CoverDescriptionController::class, 'coverdescription'])->name('coverdescription');
 Route::get('/ReadingPage', [ReadingPageController::class, 'readingpage'])->name('readingpage');
