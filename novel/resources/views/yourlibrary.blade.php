@@ -30,11 +30,12 @@
                             This is your Bookmark Page
 
                             <!-- Story -->
-                                <!-- Story Card -->
-                                <div class="container container_card mt-2">
-                                    <div class="profile-wrapper row">
+                            <!-- Story Card -->
+                            <div class="container container_card mt-2">
+                                <div class="row">
 
-                                        <!-- 1 -->
+                                    <!-- 1 -->
+                                    <div class="me-5 col-md-3 mb-3">
                                         <div class="profile">
                                             <div class="profile-image">
                                                 <img src="img/jpg/tra.jpg" alt="Profile">
@@ -75,11 +76,57 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End of 1 -->
-
                                     </div>
+                                    <!-- End of 1 -->
+
+                                    <!-- 2 -->
+                                    <div class="me-3 col-md-3 mb-3">
+                                        <div class="profile">
+                                            <div class="profile-image">
+                                                <img src="img/jpg/tra.jpg" alt="Profile">
+                                            </div>
+
+                                            <ul class="social-icons">
+                                                <li>
+                                                    <a href="#" title="recommendation">
+                                                        <img src="img/svg/card_heart.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" title="bookmark">
+                                                        <img src="img/svg/card_bookmark.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+
+                                            <div class="profile-name">
+                                                <div class="profile-bio fs-5">
+
+                                                    <div class="row">
+                                                        <p class="fw-bold fs-5">Story Title 2</p>
+
+                                                        <div class="col-6">
+                                                            <p>By: Author</p>
+                                                        </div>
+
+                                                        <div class="col-6 font_right padding_button">
+                                                            <a href="/CoverDescription" class="btn btn-dark">
+                                                                <em>Details &raquo;</em>
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of 2 -->
+
                                 </div>
-                                <!-- End of Story Card -->
+                            </div>
+                            <!-- End of Story Card -->
                             <!-- End of Story -->
 
                         </div>
@@ -91,54 +138,102 @@
                             <!-- Story -->
                             <!-- Story Card -->
                             <div class="container container_card mt-2">
-                                <div class="profile-wrapper row">
+                                <div class="row">
 
-                                    <div class="profile">
-                                        <div class="profile-image">
-                                            <img src="img/jpg/tru.jpg" alt="Profile">
-                                        </div>
+                                    <!-- 1 -->
+                                    <div class="me-5 col-md-3 mb-3">
+                                        <div class="profile">
+                                            <div class="profile-image">
+                                                <img src="img/jpg/tru.jpg" alt="Profile">
+                                            </div>
 
-                                        <ul class="social-icons">
-                                            <li>
-                                                <a href="#" title="recommendation">
-                                                    <img src="img/svg/card_heart.svg" alt="">
-                                                </a>
-                                            </li>
+                                            <ul class="social-icons">
+                                                <li>
+                                                    <a href="#" title="recommendation">
+                                                        <img src="img/svg/card_heart.svg" alt="">
+                                                    </a>
+                                                </li>
 
-                                            <li>
-                                                <a href="#" title="bookmark">
-                                                    <img src="img/svg/card_bookmark.svg" alt="">
-                                                </a>
-                                            </li>
+                                                <li>
+                                                    <a href="#" title="bookmark">
+                                                        <img src="img/svg/card_bookmark.svg" alt="">
+                                                    </a>
+                                                </li>
 
-                                        </ul>
+                                            </ul>
 
-                                        <div class="profile-name">
-                                            <div class="profile-bio fs-5">
+                                            <div class="profile-name">
+                                                <div class="profile-bio fs-5">
 
-                                                <div class="row">
-                                                    <p class="fw-bold fs-5">Story Title 1</p>
+                                                    <div class="row">
+                                                        <p class="fw-bold fs-5">Story Title 1</p>
 
-                                                    <div class="col-6">
-                                                        <p>By: Author</p>
+                                                        <div class="col-6">
+                                                            <p>By: Author</p>
+                                                        </div>
+
+                                                        <div class="col-6 font_right padding_button">
+                                                            <a href="/CoverDescription" class="btn btn-dark">
+                                                                <em>Details &raquo;</em>
+                                                            </a>
+                                                        </div>
+
                                                     </div>
-
-                                                    <div class="col-6 font_right padding_button">
-                                                        <a href="/CoverDescription" class="btn btn-dark">
-                                                            <em>Details &raquo;</em>
-                                                        </a>
-                                                    </div>
-
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
+                                    <!-- End of 1 -->
+
+                                    <!-- 2 -->
+                                    <div class="me-3 col-md-3 mb-3">
+                                        <div class="profile">
+                                            <div class="profile-image">
+                                                <img src="img/jpg/tru.jpg" alt="Profile">
+                                            </div>
+
+                                            <ul class="social-icons">
+                                                <li>
+                                                    <a href="#" title="recommendation">
+                                                        <img src="img/svg/card_heart.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" title="bookmark">
+                                                        <img src="img/svg/card_bookmark.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+
+                                            <div class="profile-name">
+                                                <div class="profile-bio fs-5">
+
+                                                    <div class="row">
+                                                        <p class="fw-bold fs-5">Story Title 2</p>
+
+                                                        <div class="col-6">
+                                                            <p>By: Author</p>
+                                                        </div>
+
+                                                        <div class="col-6 font_right padding_button">
+                                                            <a href="/CoverDescription" class="btn btn-dark">
+                                                                <em>Details &raquo;</em>
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of 2 -->
+
                                 </div>
                             </div>
                             <!-- End of Story Card -->
                             <!-- End of Story -->
-
 
                         </div>
                         <!-- End of Favorite -->
