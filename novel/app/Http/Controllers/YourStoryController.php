@@ -3,11 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Story;
 
 class YourStoryController extends Controller
 {
     public function yourstory (){
-        $story = "p";
-        return view ('yourstory', compact('story'));
+        $stories = Story::all();
+        return view ('yourstory', compact('stories'));
     }
 }

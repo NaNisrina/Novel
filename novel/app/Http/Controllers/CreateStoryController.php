@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Middleware\RedirectIfAuthenticated;
-use App\Models\Create;
+use App\Models\Story;
 use App\Models\YourStory;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -13,7 +13,7 @@ class CreateStoryController extends Controller
     public function create (){
         return view('create');
     }
-}
+
 
     function store(Request $request){
 
@@ -24,10 +24,12 @@ class CreateStoryController extends Controller
             'yourstory' => 'required'
     ]);
 
-    $validatedData['user_id'] = auth()->user()->id;
-    $validatedData['excerpt']= Str::limit($request->sinopsis, 100);
+    // $validatedData['user_id'] = auth()->user()->id;
+    // $validatedData['excerpt']= Str::limit($request->sinopsis, 100);
 
-    Create::create($validatedData);
 
-    return redirect('/yourstory')->with('success', 'New Post Has Been Added');
+    Story::create($validatedData);
+
+    return redirect('/YourStory')->with('success', 'New Post Has Been Added');
+}
 }
