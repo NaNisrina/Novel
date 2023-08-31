@@ -56,6 +56,10 @@ footer {
     padding: 10px;
     box-sizing: content-box;
 }
+.scroll_bar {
+    overflow-y: auto;
+    height: auto;
+}
 /* end of background */
 
 /* dropdown submenu */

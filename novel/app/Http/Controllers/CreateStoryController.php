@@ -20,7 +20,7 @@ class CreateStoryController extends Controller
         $validatedData = $request->validate([
             'judul' => 'required|max:255',
             'genre' => 'required',
-            'sinopsis' => 'required|max:100',
+            'sinopsis' => 'required|max:255', // max / no max? max:255
             'yourstory' => 'required'
     ]);
 

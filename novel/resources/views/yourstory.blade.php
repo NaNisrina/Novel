@@ -42,130 +42,125 @@
                 <div class="row">
 
                     <!-- Card 1 -->
-                    @foreach($stories as $story)
+                    @foreach ($stories as $story)
+
                     <div class="col-lg-4 mb-4">
-                        <div class="card card_body">
-                            <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+                        <div class="thumbnail">
 
-                            <!-- Card Header -->
-                            <div class="card-header">
-                                <h5 class="card-title">{{ $story->judul }}</h5>
-                                <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                            <div class="card card_body">
+                                <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                <div class="caption">
+
+                                    <!-- Card Header -->
+                                    <div class="card-header">
+                                        <h5 class="card-title crop-text-2">{{ $story->judul }}</h5>
+                                        <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                    </div>
+
+                                    <!-- Card Body -->
+                                    <div class="card-body card_body scroll_bar" style="height:134px">
+                                        <p class="card-text">{{ $story->sinopsis }}</p>
+                                    </div>
+
+                                    <!-- Card Footer -->
+                                    <div class="card-footer card_body">
+                                        <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                        <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                        <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                        <hr>
+                                        <p class="card-text">
+                                            <small class="text-muted">
+                                                <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                            </small>
+                                        </p>
+                                        <hr>
+
+                                        <a href="#" class="btn btn-danger btn-sm">
+                                            <img src="img/svg/card.svg" alt="heart">
+                                        </a>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <img src="img/svg/bookmark.svg" alt="bookmark">
+                                        </a>
+                                        <a href="#/editstory" class="btn btn-warning btn-sm">
+                                            <img src="img/svg/pencil.svg" alt="edit">
+                                        </a>
+                                        <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                    </div>
+
+                                </div>
                             </div>
 
-                            <!-- Card Body -->
-                            <div class="card-body card_body" style="overflow-y: auto; height:134px">
-                                <p class="card-text">{{$story->sinopsis}}</p>
-                            </div>
-
-                            <!-- Card Footer -->
-                            <div class="card-footer card_body">
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
-
-                                <hr>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        <img src="img/svg/card-eye.svg" alt="eye">1000
-                                        {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
-                                        <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
-                                    </small>
-                                </p>
-                                <hr>
-
-                                <a href="#" class="btn btn-danger btn-sm">
-                                    <img src="img/svg/card.svg" alt="heart">
-                                </a>
-                                <a href="#" class="btn btn-primary btn-sm">
-                                    <img src="img/svg/bookmark.svg" alt="bookmark">
-                                </a>
-                                <a href="#/editstory" class="btn btn-warning btn-sm">
-                                    <img src="img/svg/pencil.svg" alt="edit">
-                                </a>
-                                <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
-                            </div>
                         </div>
                     </div>
                     @endforeach
                     <!-- End of Card 1 -->
 
-                    {{--  --}}
-                    {{-- <div class="container card_body">
-                        <div class="row">
-                            <h2>Truncating Multiple Line Text <small>(crop, clampin)</small></h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="thumbnail">
-                                    <img src="http://placehold.it/250x150" alt="Image">
-                                    <div class="caption">
-                                        <h3 class="crop-text-2">It is a long established fact that a reader will be
-                                            distracted by the readable content of a page when looking at its layout.</h3>
-                                        <p class="crop-text-1">Lorem Ipsum is simply dummy text of the printing and
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                            ever since.</p>
+                    <!-- Card 2 -->
+                    @foreach ($stories as $story)
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="thumbnail">
+
+                            <div class="card card_body">
+                                <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                <div class="caption">
+
+                                    <!-- Card Header -->
+                                    <div class="card-header">
+                                        <h5 class="card-title crop-text-2">{{ $story->judul }}</h5>
+                                        <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
                                     </div>
+
+                                    <!-- Card Body -->
+                                    <div class="card-body card_body" style="height:134px">
+                                        <p class="card-text crop-text-1">{{ $story->sinopsis }}</p>
+                                    </div>
+
+                                    <!-- Card Footer -->
+                                    <div class="card-footer card_body">
+                                        <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                        <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                        <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                        <hr>
+                                        <p class="card-text">
+                                            <small class="text-muted">
+                                                <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                            </small>
+                                        </p>
+                                        <hr>
+
+                                        <a href="#" class="btn btn-danger btn-sm">
+                                            <img src="img/svg/card.svg" alt="heart">
+                                        </a>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <img src="img/svg/bookmark.svg" alt="bookmark">
+                                        </a>
+                                        <a href="#/editstory" class="btn btn-warning btn-sm">
+                                            <img src="img/svg/pencil.svg" alt="edit">
+                                        </a>
+                                        <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                    </div>
+
                                 </div>
                             </div>
+
                         </div>
-                    </div> --}}
-                    {{--  --}}
+                    </div>
+                    @endforeach
+                    <!-- End of Card 2 -->
 
                 </div>
             </div>
         </section>
         <!-- End of Card Container -->
-
-        {{-- <!-- AnotherCard -->
-        <div class="container px-5 my-5">
-            <div class="row gx-5">
-
-                <div class="card me-4 d-flex justify-content-start" style="max-width: 600px;">
-                    <div class="row no-gutters">
-
-                        <div class="col-md-4">
-                            <img src="img/jpg/tro.jpg" class="card-img" alt="try">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body card_body">
-                                <h5 class="card-title">Story Title</h5>
-                                <h5 class="card-title"><small class="text-muted">By: Author</small></h5>
-
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-
-                                <a href="{{ route('EditStory') }}"
-                                    class="btn btn-outline-warning btn-lg px-4 me-sm-3">Edit</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="card me-4 d-flex justify-content-start" style="max-width: 600px;">
-                    <div class="row no-gutters">
-
-                        <div class="col-md-4">
-                            <img src="img/jpg/tro.jpg" class="card-img" alt="try">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body card_body">
-                                <h5 class="card-title">Story Title</h5>
-                                <h5 class="card-title"><small class="text-muted">By: Author</small></h5>
-
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div> --}}
 
     </section>
     <!-- End of Cards -->

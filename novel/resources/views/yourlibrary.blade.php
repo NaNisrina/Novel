@@ -43,7 +43,7 @@
 
                                             <ul class="social-icons">
                                                 <li>
-                                                    <a href="#" title="recommendation">
+                                                    <a href="#" title="favorite">
                                                         <img src="img/svg/card_heart.svg" alt="">
                                                     </a>
                                                 </li>
@@ -51,6 +51,12 @@
                                                 <li>
                                                     <a href="#" title="bookmark">
                                                         <img src="img/svg/card_bookmark.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" title="download">
+                                                        <img src="img/svg/download.svg" alt="">
                                                     </a>
                                                 </li>
 
@@ -88,7 +94,7 @@
 
                                             <ul class="social-icons">
                                                 <li>
-                                                    <a href="#" title="recommendation">
+                                                    <a href="#" title="favorite">
                                                         <img src="img/svg/card_heart.svg" alt="">
                                                     </a>
                                                 </li>
@@ -96,6 +102,12 @@
                                                 <li>
                                                     <a href="#" title="bookmark">
                                                         <img src="img/svg/card_bookmark.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" title="download">
+                                                        <img src="img/svg/download.svg" alt="">
                                                     </a>
                                                 </li>
 
@@ -149,7 +161,7 @@
 
                                             <ul class="social-icons">
                                                 <li>
-                                                    <a href="#" title="recommendation">
+                                                    <a href="#" title="favorite">
                                                         <img src="img/svg/card_heart.svg" alt="">
                                                     </a>
                                                 </li>
@@ -157,6 +169,12 @@
                                                 <li>
                                                     <a href="#" title="bookmark">
                                                         <img src="img/svg/card_bookmark.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" title="download">
+                                                        <img src="img/svg/download.svg" alt="">
                                                     </a>
                                                 </li>
 
@@ -194,7 +212,7 @@
 
                                             <ul class="social-icons">
                                                 <li>
-                                                    <a href="#" title="recommendation">
+                                                    <a href="#" title="favorite">
                                                         <img src="img/svg/card_heart.svg" alt="">
                                                     </a>
                                                 </li>
@@ -202,6 +220,12 @@
                                                 <li>
                                                     <a href="#" title="bookmark">
                                                         <img src="img/svg/card_bookmark.svg" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" title="download">
+                                                        <img src="img/svg/download.svg" alt="">
                                                     </a>
                                                 </li>
 

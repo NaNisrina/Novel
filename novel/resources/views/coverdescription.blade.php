@@ -96,7 +96,7 @@
     <!-- End of Header -->
 
     <!-- Chapter -->
-    <section id="tabs" class="section_body">
+    <section class="section_body">
 
         <div class="container">
             <div class="row">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="shadow p-3 mb-5 card_body rounded">
+                        <div class="shadow p-3 mb-5 card_body rounded scroll_bar" style="height:300px">
 
                             <!-- Chapter1 -->
                             <div class="row">
@@ -204,6 +204,24 @@
                             </div>
                             <hr class="hr_body">
                             <!-- End of Chapter5 -->
+
+                            <!-- Chapter6 -->
+                            <div class="row">
+                                <div class="col-9">
+                                    <a href="/ReadingPage"
+                                        class="link-dark fs-6 fw-bold link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                                        Chapter 6
+                                    </a>
+                                </div>
+
+                                <div class="col d-flex justify-content-end">
+                                    <small class="text-body-secondary justify-content-end">
+                                        <em>Last updated 8 minutes ago</em>
+                                    </small>
+                                </div>
+                            </div>
+                            <hr class="hr_body">
+                            <!-- End of Chapter6 -->
 
                         </div>
 
