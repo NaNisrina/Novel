@@ -56,7 +56,7 @@
 
                                                 <li>
                                                     <a href="#" title="download">
-                                                        <img src="img/svg/download.svg" alt="">
+                                                        <img src="img/svg/card_download.svg" alt="">
                                                     </a>
                                                 </li>
 
@@ -107,7 +107,7 @@
 
                                                 <li>
                                                     <a href="#" title="download">
-                                                        <img src="img/svg/download.svg" alt="">
+                                                        <img src="img/svg/card_download.svg" alt="">
                                                     </a>
                                                 </li>
 
@@ -174,7 +174,7 @@
 
                                                 <li>
                                                     <a href="#" title="download">
-                                                        <img src="img/svg/download.svg" alt="">
+                                                        <img src="img/svg/card_download.svg" alt="">
                                                     </a>
                                                 </li>
 
@@ -225,7 +225,7 @@
 
                                                 <li>
                                                     <a href="#" title="download">
-                                                        <img src="img/svg/download.svg" alt="">
+                                                        <img src="img/svg/card_download.svg" alt="">
                                                     </a>
                                                 </li>
 

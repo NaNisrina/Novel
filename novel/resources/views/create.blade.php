@@ -29,10 +29,10 @@
                     <label for="exampleFormControlTextarea1" class="form-label">sinopsis</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="sinopsis"></textarea>
                 </div>
-                <div class="mb-3">
+                {{-- <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">your story </label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="yourstory"></textarea>
-                </div>
+                </div> --}}
 
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

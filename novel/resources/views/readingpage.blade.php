@@ -3,10 +3,20 @@
 @section('page_title', 'Reading Page')
 @section('page_content')
 
-    <!-- Dropdown -->
+    <!-- Header -->
     <section class="mx-auto">
 
         <div class="d-flex read_center">
+
+            <!-- Back -->
+            <div class="mx-2">
+                <a href="/CoverDescription" class="font_white" role="button">
+                    <img src="img/svg/angle-left-solid.svg" alt="back" class="dropdown_background">
+                </a>
+            </div>
+            <!-- End of Back -->
+
+            <!-- Dropdown -->
             <li class="dropdown col-3">
                 <a class="font_white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="img/svg/chevron-down-solid.svg" alt="archive" class="dropdown_background">
@@ -15,8 +25,8 @@
                 <div class="read_center">
                     <ul class="dropdown-menu dropdown">
                         <li><a class="dropdown-item" href="/CoverDescription">
-                            Chapter List:
-                        </a></li>
+                                Chapter List:
+                            </a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -39,16 +49,21 @@
                 </div>
 
             </li>
+            <!-- End of Dropdown -->
+
+            <!-- Chapters -->
             <div class="col-md-9 font_right">
                 <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; Previous Chapter</a>
                 <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; Next Chapter</a>
             </div>
+            <!-- End of Chapters -->
+
         </div>
     </section>
-    <!-- End of Dropdown -->
+    <!-- End of Header -->
 
     <!-- Reading -->
-    <section class="py-3">
+    <section class="py-3" style="background-color: rgb(108, 74, 140)">
 
         <div class="container font_white d-flex flex-column justify-content-center align-items-center">
             <div class="header container_center">
@@ -89,9 +104,41 @@
             </p>
             {{-- </div> --}}
         </div>
-        <br>
+        {{-- <br> --}}
 
     </section>
     <!-- End of Reading -->
+
+    <!-- Footer -->
+    <section class="mx-auto">
+
+        <div class="d-flex read_center">
+
+            <!-- Bookmark -->
+            <div class="mx-2">
+                <a href="#" class="font_white" role="button">
+                    <img src="img/svg/button_bookmark.svg" alt="bookmark" class="dropdown_background">
+                </a>
+            </div>
+            <!-- End of Bookmark -->
+
+            <!-- Heart -->
+            <div class="mx-2 col-3">
+                <a href="#" class="font_white" role="button">
+                    <img src="img/svg/button_heart.svg" alt="heart" class="dropdown_background">
+                </a>
+            </div>
+            <!-- End of Heart -->
+
+            <!-- Chapters -->
+            <div class="col-md-9 font_right">
+                <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; Previous Chapter</a>
+                <a href="/ReadingPage" class="btn mb-2 btn-outline-light">&raquo; Next Chapter</a>
+            </div>
+            <!-- End of Chapters -->
+
+        </div>
+    </section>
+    <!-- End of Footer -->
 
 @endsection

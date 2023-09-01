@@ -75,140 +75,494 @@
                     aria-labelledby="v-pills-action-tab" tabindex="0"> This is Genre Action
 
                     <!-- Story -->
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 mb-4">
-                        <div class="card card_body">
-                            <img src="img/jpg/try.jpg" alt="" class="card-img-top image_card">
 
-                            <!-- Card Header -->
-                            <div class="card-header">
-                                <h5 class="card-title">Story 1</h5>
-                                <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Body -->
-                            <div class="card-body card_body" style="overflow-y: auto; height:134px">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Footer -->
-                            <div class="card-footer card_body">
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                                <hr>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        <img src="img/svg/card-eye.svg" alt="eye">1000
-                                        {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
-                                        <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
-                                    </small>
-                                </p>
-                                <hr>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
 
-                                <a href="#" class="btn btn-danger btn-sm">
-                                    <img src="img/svg/card.svg" alt="heart">
-                                </a>
-                                <a href="#" class="btn btn-primary btn-sm">
-                                    <img src="img/svg/bookmark.svg" alt="bookmark">
-                                </a>
-                                <a href="/CoverDescription" class="btn btn-danger btn-sm"><em>Details &raquo;</em></a>
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Card 1 -->
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body scroll_bar" style="height:134px">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">2000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- End of Card 1 -->
+                    <!-- End of Card 2 -->
+
                     <!-- End of Story -->
 
                 </div>
                 <!-- End of Action -->
+
 
                 <!-- Fantasy -->
                 <div class="tab-pane fade font_white" id="v-pills-fantasy" role="tabpanel" aria-labelledby="v-pills-fantasy-tab"
                     tabindex="0"> This is Genre Fantasy
 
                     <!-- Story -->
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 mb-4">
-                        <div class="card card_body">
-                            <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                            <!-- Card Header -->
-                            <div class="card-header">
-                                <h5 class="card-title">Story 1</h5>
-                                <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Body -->
-                            <div class="card-body card_body" style="overflow-y: auto; height:134px">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Footer -->
-                            <div class="card-footer card_body">
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                                <hr>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        <img src="img/svg/card-eye.svg" alt="eye">1000
-                                        {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
-                                        <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
-                                    </small>
-                                </p>
-                                <hr>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
 
-                                <a href="#" class="btn btn-danger btn-sm">
-                                    <img src="img/svg/card.svg" alt="heart">
-                                </a>
-                                <a href="#" class="btn btn-primary btn-sm">
-                                    <img src="img/svg/bookmark.svg" alt="bookmark">
-                                </a>
-                                <a href="/CoverDescription" class="btn btn-danger btn-sm"><em>Details &raquo;</em></a>
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Card 1 -->
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body scroll_bar" style="height:134px">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">2000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- End of Card 1 -->
+                    <!-- End of Card 2 -->
+
                     <!-- End of Story -->
                 </div>
                 <!-- End of Fantasy -->
@@ -217,68 +571,244 @@
                 <div class="tab-pane fade font_white" id="v-pills-romance" role="tabpanel" aria-labelledby="v-pills-romance-tab"
                     tabindex="0"> This is Genre Romance
                     <!-- Story -->
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 mb-4">
-                        <div class="card card_body">
-                            <img src="img/jpg/tre.jpg" alt="" class="card-img-top image_card">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                            <!-- Card Header -->
-                            <div class="card-header">
-                                <h5 class="card-title">Story 1</h5>
-                                <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tre.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Body -->
-                            <div class="card-body card_body" style="overflow-y: auto; height:134px">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tre.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Footer -->
-                            <div class="card-footer card_body">
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                                <hr>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        <img src="img/svg/card-eye.svg" alt="eye">1000
-                                        {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
-                                        <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
-                                    </small>
-                                </p>
-                                <hr>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tre.jpg" alt="" class="card-img-top image_card">
 
-                                <a href="#" class="btn btn-danger btn-sm">
-                                    <img src="img/svg/card.svg" alt="heart">
-                                </a>
-                                <a href="#" class="btn btn-primary btn-sm">
-                                    <img src="img/svg/bookmark.svg" alt="bookmark">
-                                </a>
-                                <a href="/CoverDescription" class="btn btn-danger btn-sm"><em>Details &raquo;</em></a>
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Card 1 -->
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tre.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body scroll_bar" style="height:134px">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">2000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- End of Card 1 -->
+                    <!-- End of Card 2 -->
+
                     <!-- End of Story -->
                 </div>
                 <!--  End of Romance -->
@@ -290,69 +820,245 @@
                 <div class="tab-pane fade font_white" id="v-pills-knowledge" role="tabpanel"
                     aria-labelledby="v-pills-knowledge-tab" tabindex="0"> This is Genre Knowledge
                     <!-- Story -->
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 mb-4">
-                        <div class="card card_body">
-                            <img src="img/jpg/tro.jpg" alt="" class="card-img-top image_card">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                            <!-- Card Header -->
-                            <div class="card-header">
-                                <h5 class="card-title">Story 1</h5>
-                                <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tro.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Body -->
-                            <div class="card-body card_body" style="overflow-y: auto; height:134px">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tro.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Footer -->
-                            <div class="card-footer card_body">
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                                <hr>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        <img src="img/svg/card-eye.svg" alt="eye">1000
-                                        {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
-                                        <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
-                                    </small>
-                                </p>
-                                <hr>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tro.jpg" alt="" class="card-img-top image_card">
 
-                                <a href="#" class="btn btn-danger btn-sm">
-                                    <img src="img/svg/card.svg" alt="heart">
-                                </a>
-                                <a href="#" class="btn btn-primary btn-sm">
-                                    <img src="img/svg/bookmark.svg" alt="bookmark">
-                                </a>
-                                <a href="/CoverDescription" class="btn btn-danger btn-sm"><em>Details &raquo;</em></a>
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Card 1 -->
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tro.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body scroll_bar" style="height:134px">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">2000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- End of Card 1 -->
-                            <!-- End of Story -->
+                    <!-- End of Card 2 -->
+
+                    <!-- End of Story -->
                 </div>
                 <!--  End of Knowledge -->
 
@@ -360,69 +1066,245 @@
                 <div class="tab-pane fade font_white" id="v-pills-poem_poetry" role="tabpanel"
                     aria-labelledby="v-pills-poem_poetry-tab" tabindex="0"> This is Genre Poem&Poetry
                     <!-- Story -->
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 mb-4">
-                        <div class="card card_body">
-                            <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                            <!-- Card Header -->
-                            <div class="card-header">
-                                <h5 class="card-title">Story 1</h5>
-                                <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Body -->
-                            <div class="card-body card_body" style="overflow-y: auto; height:134px">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Footer -->
-                            <div class="card-footer card_body">
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                                <hr>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        <img src="img/svg/card-eye.svg" alt="eye">1000
-                                        {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
-                                        <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
-                                    </small>
-                                </p>
-                                <hr>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
 
-                                <a href="#" class="btn btn-danger btn-sm">
-                                    <img src="img/svg/card.svg" alt="heart">
-                                </a>
-                                <a href="#" class="btn btn-primary btn-sm">
-                                    <img src="img/svg/bookmark.svg" alt="bookmark">
-                                </a>
-                                <a href="/CoverDescription" class="btn btn-danger btn-sm"><em>Details &raquo;</em></a>
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Card 1 -->
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body scroll_bar" style="height:134px">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">2000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- End of Card 1 -->
-                            <!-- End of Story -->
+                    <!-- End of Card 2 -->
+
+                    <!-- End of Story -->
 
                 </div>
                 <!--  End of PoemPoetry -->
@@ -431,69 +1313,245 @@
                 <div class="tab-pane fade font_white" id="v-pills-science" role="tabpanel" aria-labelledby="v-pills-science-tab"
                     tabindex="0"> This is Genre Science
                     <!-- Story -->
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 mb-4">
-                        <div class="card card_body">
-                            <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                            <!-- Card Header -->
-                            <div class="card-header">
-                                <h5 class="card-title">Story 1</h5>
-                                <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Body -->
-                            <div class="card-body card_body" style="overflow-y: auto; height:134px">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                                    eum
-                                    similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto
-                                    dolore modi
-                                    dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                        <!-- End of Card 1 -->
 
-                            <!-- Card Footer -->
-                            <div class="card-footer card_body">
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
-                                <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
 
-                                <hr>
-                                <p class="card-text">
-                                    <small class="text-muted">
-                                        <img src="img/svg/card-eye.svg" alt="eye">1000
-                                        {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
-                                        <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
-                                    </small>
-                                </p>
-                                <hr>
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
 
-                                <a href="#" class="btn btn-danger btn-sm">
-                                    <img src="img/svg/card.svg" alt="heart">
-                                </a>
-                                <a href="#" class="btn btn-primary btn-sm">
-                                    <img src="img/svg/bookmark.svg" alt="bookmark">
-                                </a>
-                                <a href="/CoverDescription" class="btn btn-danger btn-sm"><em>Details &raquo;</em></a>
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body" style="height:134px">
+                                            <p class="card-text crop-text-1">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">1000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Card 1 -->
+
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 mb-4">
+                            <div class="thumbnail">
+
+                                <div class="card card_body">
+                                    <img src="img/jpg/tra.jpg" alt="" class="card-img-top image_card">
+
+                                    <div class="caption">
+
+                                        <!-- Card Header -->
+                                        <div class="card-header">
+                                            <h5 class="card-title crop-text-2">It is a long established fact that a reader will be
+                                                distracted by the readable content of a page when looking at its layout.</h5>
+                                            <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
+                                        </div>
+
+                                        <!-- Card Body -->
+                                        <div class="card-body card_body scroll_bar" style="height:134px">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorem consequuntur porro, voluptas et eveniet quod, recusandae voluptatum cupiditate atque magnam vitae molestias laborum reiciendis facere. Esse ad eius error.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque assumenda eum necessitatibus reprehenderit eligendi ex modi porro doloremque in, et beatae illo saepe dolores officia perferendis quis veniam sit?
+                                            </p>
+                                        </div>
+
+                                        <!-- Card Footer -->
+                                        <div class="card-footer card_body">
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
+                                            <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
+
+                                            <hr>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <img src="img/svg/card-eye.svg" alt="eye">2000
+                                                    {{-- <img src="img/svg/card-user.svg" alt="user">author --}}
+                                                    <img src="img/svg/card-calendar.svg" alt="calendar"> Jan 20, 2018
+                                                </small>
+                                            </p>
+                                            <hr>
+
+                                            <a href="#" class="btn btn-danger btn-sm">
+                                                <img src="img/svg/card.svg" alt="heart">
+                                            </a>
+                                            <a href="#" class="btn btn-primary btn-sm">
+                                                <img src="img/svg/bookmark.svg" alt="bookmark">
+                                            </a>
+                                            <a href="#/editstory" class="btn btn-success btn-sm">
+                                                <img src="img/svg/download.svg" alt="download">
+                                            </a>
+                                            <a href="/CoverDescription" class="btn btn-danger btn-sm">Details &raquo;</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- End of Card 1 -->
-                            <!-- End of Story -->
+                    <!-- End of Card 2 -->
+
+                    <!-- End of Story -->
                 </div>
                 <!--  End of Science -->
 

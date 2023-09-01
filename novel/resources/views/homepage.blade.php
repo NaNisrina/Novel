@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="carousel-item">
                                     <a href="/CoverDescription">
-                                        <img src="img/jpg/tro.jpg" class="d-block w-100 image_carousel" alt="...">
+                                        <img src="img/jpg/tra.jpg" class="d-block w-100 image_carousel" alt="...">
                                     </a>
                                     <div class="carousel-caption d-md-block">
                                         <h5>Story 2</h5>
