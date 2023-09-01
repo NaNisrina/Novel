@@ -63,7 +63,8 @@
     <!-- End of Header -->
 
     <!-- Reading -->
-    <section class="py-3" style="background-color: rgb(108, 74, 140)">
+    <section class="py-3">
+        {{-- style="background-color: rgb(108, 74, 140)" --}}
 
         <div class="container font_white d-flex flex-column justify-content-center align-items-center">
             <div class="header container_center">
@@ -75,18 +76,20 @@
 
             {{-- <div class="content col-5"> --}}
             <p class="read_center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae lacus vel odio auctor faucibus.
-                Sed ut elit ut nunc bibendum cursus. Sed vehicula dui id orci condimentum, in varius justo egestas.
-                Vivamus nec est at justo blandit pharetra. Nam dignissim nisi vitae quam ultrices, ac fermentum purus
-                facilisis.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae lacus vel odio auctor faucibus.
-                Sed ut elit ut nunc bibendum cursus. Sed vehicula dui id orci condimentum, in varius justo egestas.
-                Vivamus nec est at justo blandit pharetra. Nam dignissim nisi vitae quam ultrices, ac fermentum purus
-                facilisis.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae lacus vel odio auctor faucibus.
-                Sed ut elit ut nunc bibendum cursus. Sed vehicula dui id orci condimentum, in varius justo egestas.
-                Vivamus nec est at justo blandit pharetra. Nam dignissim nisi vitae quam ultrices, ac fermentum purus
-                facilisis.
+                Demikian pula, tidak adakah orang yang mencintai atau mengejar atau ingin mengalami penderitaan, bukan
+                semata-mata karena penderitaan itu sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan
+                penderitaan dapat memberikan kepadanya kesenangan yang besar. Sebagai contoh sederhana, siapakah di antara
+                kita yang pernah melakukan pekerjaan fisik yang berat, selain untuk memperoleh manfaat daripadanya? Tetapi
+                siapakah yang berhak untuk mencari kesalahan pada diri orang yang memilih untuk menikmati kesenangan yang
+                tidak menimbulkan akibat-akibat yang mengganggu, atau orang yang menghindari penderitaan yang tidak
+                menghasilkan kesenangan?"
+                Demikian pula, tidak adakah orang yang mencintai atau mengejar atau ingin mengalami penderitaan, bukan
+                semata-mata karena penderitaan itu sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan
+                penderitaan dapat memberikan kepadanya kesenangan yang besar. Sebagai contoh sederhana, siapakah di antara
+                kita yang pernah melakukan pekerjaan fisik yang berat, selain untuk memperoleh manfaat daripadanya? Tetapi
+                siapakah yang berhak untuk mencari kesalahan pada diri orang yang memilih untuk menikmati kesenangan yang
+                tidak menimbulkan akibat-akibat yang mengganggu, atau orang yang menghindari penderitaan yang tidak
+                menghasilkan kesenangan?"
             </p>
             <p class="read_center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae lacus vel odio auctor faucibus.
@@ -102,6 +105,8 @@
                 Vivamus nec est at justo blandit pharetra. Nam dignissim nisi vitae quam ultrices, ac fermentum purus
                 facilisis.
             </p>
+
+            <img src="img/jpg/try.jpg" alt="" class="image_card">
             {{-- </div> --}}
         </div>
         {{-- <br> --}}
