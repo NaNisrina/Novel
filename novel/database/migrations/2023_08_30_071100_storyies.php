@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string("genre");
             $table->string("sinopsis");
             $table->string("yourstory");
+            $table->string("photo");
             $table->timestamps();
         });
     }

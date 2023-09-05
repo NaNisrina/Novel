@@ -48,7 +48,7 @@
                         <div class="thumbnail">
 
                             <div class="card card_body">
-                                <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
+                                <img src="img/jpg" alt="" class="card-img-top image_card">
 
                                 <div class="caption">
 

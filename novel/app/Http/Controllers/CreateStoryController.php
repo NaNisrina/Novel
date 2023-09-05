@@ -21,7 +21,8 @@ class CreateStoryController extends Controller
             'judul' => 'required|max:255',
             'genre' => 'required',
             'sinopsis' => 'required|max:255', // max / no max? max:255
-            'yourstory' => 'required'
+            'yourstory' => 'required',
+            'photo' => 'required'
     ]);
 
     // $validatedData['user_id'] = auth()->user()->id;
