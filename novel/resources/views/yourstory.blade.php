@@ -48,7 +48,9 @@
                         <div class="thumbnail">
 
                             <div class="card card_body">
-                                <img src="img/jpg" alt="" class="card-img-top image_card">
+                                <!-- <img src="img" alt="brr" class="card-img-top image_card"> -->
+                                <img src="{{ asset('public/photos/' .$story->photos) }}" alt="{{ $story -> judul }}" class="card-img-top image_card">
+
 
                                 <div class="caption">
 
@@ -100,7 +102,7 @@
                     <!-- End of Card 1 -->
 
                     <!-- Card 2 -->
-                    @foreach ($stories as $story)
+                    <!-- @foreach ($stories as $story)
 
                     <div class="col-lg-4 mb-4">
                         <div class="thumbnail">
@@ -108,21 +110,21 @@
                             <div class="card card_body">
                                 <img src="img/jpg/tru.jpg" alt="" class="card-img-top image_card">
 
-                                <div class="caption">
+                                <div class="caption"> -->
 
                                     <!-- Card Header -->
-                                    <div class="card-header">
+                                    <!-- <div class="card-header">
                                         <h5 class="card-title crop-text-2">{{ $story->judul }}</h5>
                                         <h6 class="card-title"><small class="text-muted">By: Author</small></h6>
-                                    </div>
+                                    </div> -->
 
                                     <!-- Card Body -->
-                                    <div class="card-body card_body" style="height:134px">
+                                    <!-- <div class="card-body card_body" style="height:134px">
                                         <p class="card-text crop-text-1">{{ $story->sinopsis }}</p>
-                                    </div>
+                                    </div> -->
 
                                     <!-- Card Footer -->
-                                    <div class="card-footer card_body">
+                                    <!-- <div class="card-footer card_body">
                                         <a href="/Genre" class="btn btn-dark genre btn-sm">Action</a>
                                         <a href="/Genre" class="btn btn-dark genre btn-sm">Fantasy</a>
                                         <a href="/Genre" class="btn btn-dark genre btn-sm">Magic</a>
@@ -154,7 +156,7 @@
 
                         </div>
                     </div>
-                    @endforeach
+                    @endforeach -->
                     <!-- End of Card 2 -->
 
                 </div>
